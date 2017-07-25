@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Start Blogging with Hugo | greenLand</title>
+    <link rel="stylesheet" href="/green-land/css/style.css" />
+    <link rel="stylesheet" href="/green-land/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/green-land/">About</a></li>
+      
+      <li><a href="/green-land/post/">Posts</a></li>
+      
+      <li><a href="/green-land/book/">Books</a></li>
+      
+      <li><a href="/green-land/quote/">Quotes</a></li>
+      
+      <li><a href="/green-land/categories/">--Categories--</a></li>
+      
+      <li><a href="/green-land/tags/">--Tags--</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Start Blogging with Hugo</span></h1>
+
+<h2 class="date">2017/07/14</h2>
+</div>
+
+<main>
+
+
+<h2 id="reference">Reference</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Date</th>
+<th align="left">Title</th>
+<th align="center">Author</th>
+<th align="center">URL</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">N/A</td>
+<td align="left">Jekyll on Windows</td>
+<td align="center">Jekyll official site</td>
+<td align="center"><a href="https://jekyllrb.com/docs/windows/">Link</a></td>
+</tr>
+
+<tr>
+<td align="center">N/A</td>
+<td align="left">Quick Start</td>
+<td align="center">Hugo official site</td>
+<td align="center"><a href="https://gohugo.io/getting-started/quick-start/">Link</a></td>
+</tr>
+
+<tr>
+<td align="center">N/A</td>
+<td align="left">Configure Hugo</td>
+<td align="center">Hugo official site</td>
+<td align="center"><a href="https://gohugo.io/getting-started/configuration/">Link</a></td>
+</tr>
+
+<tr>
+<td align="center">2017-07-21</td>
+<td align="left">How to get your website online easily with Github</td>
+<td align="center">Julio F.</td>
+<td align="center"><a href="https://codeburst.io/how-to-get-your-website-online-easily-with-github-44ea5ce2997d">Link</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="why-blogging">Why blogging?</h2>
+
+<p>There are several good reasons to blog.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">#</th>
+<th align="left">Reasons behind blogging</th>
+<th align="left">Explanation</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">1.</td>
+<td align="left">Build memory palace</td>
+<td align="left">A personal blog enables you to organize content in a fully customized fashion. This makes it easier to collect and retrieve information for later use.</td>
+</tr>
+
+<tr>
+<td align="center">2.</td>
+<td align="left">Express oneself with clarity</td>
+<td align="left">Writing is the best way to capture diffusing thoughts and fleeting inspirations.</td>
+</tr>
+
+<tr>
+<td align="center">3.</td>
+<td align="left">Play with self-host</td>
+<td align="left">Self-hosting sounds cool.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h2 id="i-get-started-with-jekyll">I. Get started with <em>Jekyll</em></h2>
+
+<p><img src="http://i.imgur.com/Fqede55.png" align="middle" alt="Jekyll" style="width: 500px;"/></p>
+
+<p>A friend mentioned Jekyll when talking about building and hosting sites. Being naively stupid, I started googling and reading about Jekyll right away without giving much thought on other alternatives. This mistake cost me nearly 8 hours of leisure time.</p>
+
+<p>The official <a href="https://jekyllrb.com/docs/windows/">Jekyll on Windows</a> walkthrough is my main source of information. I installed Jekyll via Chocolatey, a package manager on Windows.</p>
+
+<hr />
+
+<h2 id="ii-pack-my-ruby">II. Pack my <em>Ruby</em></h2>
+
+<p><img src="http://i.imgur.com/8eYutui.png" align="right" alt="Ruby" style="width: 170px;"/></p>
+
+<p>Before I could run Jekyll on Window, I had to install Ruby, the engine that runs Jekyll. According to the official Jekyll on Windows guide, there are 4 steps:</p>
+
+<ol>
+<li>Install Ruby and Ruby development kit</li>
+<li>Configure Ruby development kit</li>
+<li>Install Nokogiri gem</li>
+<li>Install GitHub-pages gem</li>
+</ol>
+
+<hr />
+
+<h2 id="iii-encounter-gem-roadblock">III. Encounter <em>Gem</em> roadblock</h2>
+
+<p><img src="http://i.imgur.com/lmb81zg.png" align="left" alt="Ruby Gem" style="width: 170px;"/></p>
+
+<p><code>Gem</code> is a type of package written in Ruby, and it is notoriously troublesome to install and run on Windows (incompatible people just can&rsquo;t get along). I could perform steps 1 to 3, but the installation of GitHub-pages gem failed due to dependencies issue.</p>
+
+<p>Somehow I got stuck in the installation of GitHub-pages. I could not run <code>gem install bundle</code>. After inserting this line <code>gem 'wdm', '&gt;= 0.1.0' if Gem.win_platform?</code> in GemFile, it still couldn&rsquo;t run</p>
+
+<hr />
+
+<figure>
+  <img src="http://i.imgur.com/2QYeHLR.gif" align="middle" alt="Dependency" style="width: 500px;">
+  <figcaption>Jekyll is the boss of static site generator powered by Ruby. My blog's life relies on Jekyll and Ruby!</figcaption>
+</figure>
+
+<p>I nearly gave up on setting my site. As Jekyll is the de facto standard static site generator, I thought if I could not use Jekyll properly, I would never be able to host a site.</p>
+
+<hr />
+
+<h2 id="iii-go-again-with-hugo">III. Go again with <strong>Hugo</strong></h2>
+
+<figure>
+  <img src="http://i.imgur.com/JWtHLxU.png" align="middle" alt="Hugo - a dependency-free static site generator" style="width: 500px;">
+  <figcaption></figcaption>
+</figure>
+
+<p>Later I ran across <strong><a href="https://gohugo.io">Hugo</a></strong>. It is a fast static site generator that can <a href="https://gohugo.io/overview/introduction/">run without dependencies</a>. I decided to give it a try.</p>
+
+<p>With Hugo, a decent site could be generated within seconds effortlessly. This blog adopts <a href="https://themes.gohugo.io/hugo-xmin/">Xmin theme</a> which offers nice content organization. Apart from the blinding white color scheme, I have no further comment on it as a happy user.</p>
+
+<hr />
+
+<h2 id="iv-run-with-github-page">IV. Run with GitHub page</h2>
+
+<p><a href="https://codeburst.io/how-to-get-your-website-online-easily-with-github-44ea5ce2997d">&ldquo;How to get your website online easily with Github&rdquo;</a> written by Julio F. has been a great help. I knew that decent developers should dig deep into official GitHub Pages documentations, but GUI is much more friendly to newbie. I wasted &gt; 10 hours bumping my head against the wall trying to push my site via command line.</p>
+
+<p>My lesson in this painful deployment:</p>
+
+<blockquote>
+<p>Anything that works is a solution, regardless of being stupid or not.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="finally">Finally&hellip;.</h2>
+
+<figure>
+  <img src="http://i.imgur.com/rEXoo2l.png" align="middle" alt="Hugo - a dependency-free static site generator" style="width: 800px;">
+  <figcaption>Successfully publish blog green-land!</figcaption>
+</figure>
+
+<p>If I want to refresh my blog, simply do the following</p>
+
+<p>Method 1 : Grow a new branch</p>
+
+<ol>
+<li>delete the <code>public</code> directory inside <code>green-land</code></li>
+<li>rerun <code>hugo --buildDrafts --theme=hugo-xmin</code> without <code>server</code></li>
+<li>upload everything in the newly generated <code>public</code> to GitHub repository in a new branch</li>
+<li>delete the existing <code>master</code> branch</li>
+<li>rename the new branch as <code>master</code></li>
+</ol>
+
+<p>Method 2 : Update <code>master</code> branch</p>
+
+<ol>
+<li>delete the <code>public</code> directory inside <code>green-land</code></li>
+<li>rerun <code>hugo --buildDrafts --theme=hugo-xmin</code> without <code>server</code></li>
+<li>upload everything in the newly generated <code>public</code> to GitHub repository in a new branch</li>
+<li>delete the file corresponding to your updated page at <code>master</code> branch</li>
+<li>merge the branches</li>
+</ol>
+
+<h2 id="p-s-still-a-long-way-to-go">P.S. Still a long way to go</h2>
+
+<p>This post ends here, but my journey with Hugo will continue. I understand that I cannot reach every place at once, and issues have to be solved one-by-one. This is my list of issues to be solved.</p>
+
+<ol class="task-list">
+<li><input type="checkbox" disabled class="task-list-item"> <strong><a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/">Use my custom domain</a></strong></li>
+<li><input type="checkbox" disabled class="task-list-item"> <strong><a href="https://gohugo.io/themes/customizing/">Customize Hugo theme</a></strong></li>
+<li><input type="checkbox" disabled class="task-list-item"> <strong><a href="https://www.netlify.com">Deploy by Netlify</a></strong></li>
+</ol>
+
+<h2 id="summary">Summary</h2>
+
+<ul>
+<li>In retrospect, I realize that it only took me little effort to build a Hugo site. Hugo is newbie-friendly enough.</li>
+<li>Making <em>endless</em> theme-twitching attempts is such a time sink! I should avoid that next time! If I can&rsquo;t fix it, leave it alone! Don&rsquo;t blindly bump my head against the wall.</li>
+<li>Recapturing what, how and when things are done is a good habit.</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">#</th>
+<th align="left">Task</th>
+<th align="left">Time Spent</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">1.</td>
+<td align="left">Research about Jekyll</td>
+<td align="left">3 hours</td>
+</tr>
+
+<tr>
+<td align="center">2.</td>
+<td align="left">Install Ruby Gem</td>
+<td align="left">9 hours</td>
+</tr>
+
+<tr>
+<td align="center">3.</td>
+<td align="left">Research about Hugo</td>
+<td align="left">2 hours</td>
+</tr>
+
+<tr>
+<td align="center">4.</td>
+<td align="left">Build Hugo site</td>
+<td align="left">1 hour</td>
+</tr>
+
+<tr>
+<td align="center">5.</td>
+<td align="left">Set Hugo theme</td>
+<td align="left">6 hours</td>
+</tr>
+
+<tr>
+<td align="center">6.</td>
+<td align="left">Set post template</td>
+<td align="left">3 hours</td>
+</tr>
+
+<tr>
+<td align="center">7.</td>
+<td align="left">Write this post</td>
+<td align="left">1 hour</td>
+</tr>
+
+<tr>
+<td align="center">&mdash;-</td>
+<td align="left">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-</td>
+<td align="left">&mdash;&mdash;&mdash;&mdash;</td>
+</tr>
+
+<tr>
+<td align="center">&mdash;-</td>
+<td align="left">&mdash;Total Time Spent&mdash;</td>
+<td align="left">25 hours</td>
+</tr>
+</tbody>
+</table>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  &copy; <a href="http://newbiegreen4ever.github.io/greenland/">Newbie Green</a> 2017
+  
+  </footer>
+  </body>
+</html>
+

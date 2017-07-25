@@ -6,18 +6,18 @@
     <description>Recent content in JavaScript on greenLand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://newbiegreen4ever.github.io/green-land/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Book of July 2017</title>
-      <link>https://newbiegreen4ever.github.io/green-land/book/book-july-2017/</link>
-      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      <title>Learning `map()` in javaScript</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/19/js-map/</link>
+      <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://newbiegreen4ever.github.io/green-land/book/book-july-2017/</guid>
-      <description>Start reading about JavaScript</description>
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/19/js-map/</guid>
+      <description>Reference    Date Title Author URL     2017-05-31 Master Map &amp;amp; Filter, Javascript’s Most Powerful Array Functions Arnav Aggarwal Link   2014-02-24 how do you pass an array as a parameter in a function? Dave McFarland Link    Summary This article adopts a specific-to-abstract 4-stage approach to explain array functions. A quasi-map function is developed from multiplying each items in arr by 3.</description>
     </item>
     
   </channel>
