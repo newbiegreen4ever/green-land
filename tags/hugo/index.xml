@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on greenLand</title>
+    <link>https://newbiegreen4ever.github.io/green-land/tags/hugo/</link>
+    <description>Recent content in Hugo on greenLand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://newbiegreen4ever.github.io/green-land/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Start Blogging with Hugo</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/14/start-blogging-with-hugo/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/14/start-blogging-with-hugo/</guid>
+      <description>Start Blogging with Hugo Why blogging? There are several good reasons to blog:
+ Build my memory palace  A personal blog enables you to organize content in a fully customized fashion. This makes it easier to collect and retrieve information for later use.
+ Express myself with clarity  Writing is the best way to capture diffusing thoughts and fleeting inspirations.
+ Play with self-hosting  Self-hosting sounds cool.</description>
+    </item>
+    
+  </channel>
+</rss>

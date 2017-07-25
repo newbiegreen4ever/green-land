@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note on greenLand</title>
+    <link>https://newbiegreen4ever.github.io/green-land/categories/note/</link>
+    <description>Recent content in Note on greenLand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://newbiegreen4ever.github.io/green-land/categories/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning `map()` in javaScript</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/19/js-map/</link>
+      <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/19/js-map/</guid>
+      <description>Reading List    Date Title Author URL     2017-05-31 Master Map &amp;amp; Filter, Javascript’s Most Powerful Array Functions Arnav Aggarwal Link   2014-02-24 how do you pass an array as a parameter in a function? Dave McFarland Link    Summary This article adopts a specific-to-abstract 4-stage approach to explain array functions. A quasi-map function is developed from multiplying each items in arr by 3.</description>
+    </item>
+    
+    <item>
+      <title>First Step to API</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/17/first-step-to-api/</link>
+      <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/17/first-step-to-api/</guid>
+      <description>Newbie&amp;rsquo;s notes about API What is API? An Introduction to API by Brian Cooksey ebook</description>
+    </item>
+    
+  </channel>
+</rss>

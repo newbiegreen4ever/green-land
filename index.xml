@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on greenLand</title>
+    <link>https://newbiegreen4ever.github.io/green-land/</link>
+    <description>Recent content in Home on greenLand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://newbiegreen4ever.github.io/green-land/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning `map()` in javaScript</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/19/js-map/</link>
+      <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/19/js-map/</guid>
+      <description>Reading List    Date Title Author URL     2017-05-31 Master Map &amp;amp; Filter, Javascript’s Most Powerful Array Functions Arnav Aggarwal Link   2014-02-24 how do you pass an array as a parameter in a function? Dave McFarland Link    Summary This article adopts a specific-to-abstract 4-stage approach to explain array functions. A quasi-map function is developed from multiplying each items in arr by 3.</description>
+    </item>
+    
+    <item>
+      <title>First Step to API</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/17/first-step-to-api/</link>
+      <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/17/first-step-to-api/</guid>
+      <description>Newbie&amp;rsquo;s notes about API What is API? An Introduction to API by Brian Cooksey ebook</description>
+    </item>
+    
+    <item>
+      <title>Book of July 2017</title>
+      <link>https://newbiegreen4ever.github.io/green-land/book/book-july-2017/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/book/book-july-2017/</guid>
+      <description>Start reading about JavaScript</description>
+    </item>
+    
+    <item>
+      <title>Quote on Aim</title>
+      <link>https://newbiegreen4ever.github.io/green-land/note/2017/07/14/quote-on-aim/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/note/2017/07/14/quote-on-aim/</guid>
+      <description> We aim above the mark to hit the mark. Ralph Waldo Emerson
+ </description>
+    </item>
+    
+    <item>
+      <title>Start Blogging with Hugo</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/14/start-blogging-with-hugo/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/14/start-blogging-with-hugo/</guid>
+      <description>Start Blogging with Hugo Why blogging? There are several good reasons to blog:
+ Build my memory palace  A personal blog enables you to organize content in a fully customized fashion. This makes it easier to collect and retrieve information for later use.
+ Express myself with clarity  Writing is the best way to capture diffusing thoughts and fleeting inspirations.
+ Play with self-hosting  Self-hosting sounds cool.</description>
+    </item>
+    
+  </channel>
+</rss>

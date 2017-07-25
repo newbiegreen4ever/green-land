@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quotes on greenLand</title>
+    <link>https://newbiegreen4ever.github.io/green-land/quote/</link>
+    <description>Recent content in Quotes on greenLand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://newbiegreen4ever.github.io/green-land/quote/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quote on Aim</title>
+      <link>https://newbiegreen4ever.github.io/green-land/note/2017/07/14/quote-on-aim/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/note/2017/07/14/quote-on-aim/</guid>
+      <description> We aim above the mark to hit the mark. Ralph Waldo Emerson
+ </description>
+    </item>
+    
+  </channel>
+</rss>
