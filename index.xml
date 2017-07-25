@@ -17,7 +17,7 @@
       <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/19/js-map/</guid>
-      <description>Reading List    Date Title Author URL     2017-05-31 Master Map &amp;amp; Filter, Javascript’s Most Powerful Array Functions Arnav Aggarwal Link   2014-02-24 how do you pass an array as a parameter in a function? Dave McFarland Link    Summary This article adopts a specific-to-abstract 4-stage approach to explain array functions. A quasi-map function is developed from multiplying each items in arr by 3.</description>
+      <description>Reference    Date Title Author URL     2017-05-31 Master Map &amp;amp; Filter, Javascript’s Most Powerful Array Functions Arnav Aggarwal Link   2014-02-24 how do you pass an array as a parameter in a function? Dave McFarland Link    Summary This article adopts a specific-to-abstract 4-stage approach to explain array functions. A quasi-map function is developed from multiplying each items in arr by 3.</description>
     </item>
     
     <item>
@@ -26,7 +26,8 @@
       <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/17/first-step-to-api/</guid>
-      <description>Newbie&amp;rsquo;s notes about API What is API? An Introduction to API by Brian Cooksey ebook</description>
+      <description>Reference    Date Title Author URL     2017-05-31 An Introduction to APIs Brian Cooksey Link    &amp;lt;&amp;lt; An Introduction to APIs &amp;gt;&amp;gt; by Brian Cooksey This short ebook explains APIs in a clear and manageable way. The author is affiliated with Zapier, a tech firm earning a living on APIs.
+There are 8 chapters in the book. I will summarize and highlight the keypoints in them one by one.</description>
     </item>
     
     <item>
@@ -54,10 +55,8 @@
       <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/14/start-blogging-with-hugo/</guid>
-      <description>Start Blogging with Hugo Why blogging? There are several good reasons to blog:
- Build my memory palace  A personal blog enables you to organize content in a fully customized fashion. This makes it easier to collect and retrieve information for later use.
- Express myself with clarity  Writing is the best way to capture diffusing thoughts and fleeting inspirations.
- Play with self-hosting  Self-hosting sounds cool.</description>
+      <description>Reference    Date Title Author URL     N/A Jekyll on Windows Jekyll official site Link   N/A Quick Start Hugo official site Link   N/A Configure Hugo Hugo official site Link   2017-07-21 How to get your website online easily with Github Julio F. Link    Why blogging? There are several good reasons to blog.
+   # Reasons behind blogging Explanation     1.</description>
     </item>
     
   </channel>
