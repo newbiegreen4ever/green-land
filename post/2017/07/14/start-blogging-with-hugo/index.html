@@ -81,6 +81,8 @@
 </tbody>
 </table>
 
+<hr class="gradient">
+
 <h2 id="why-blogging">Why blogging?</h2>
 
 <p>There are several good reasons to blog.</p>
@@ -115,7 +117,7 @@
 </tbody>
 </table>
 
-<hr />
+<hr class="gradient">
 
 <h2 id="i-get-started-with-jekyll">I. Get started with <em>Jekyll</em></h2>
 
@@ -125,7 +127,7 @@
 
 <p>The official <a href="https://jekyllrb.com/docs/windows/">Jekyll on Windows</a> walkthrough is my main source of information. I installed Jekyll via Chocolatey, a package manager on Windows.</p>
 
-<hr />
+<hr class="gradient">
 
 <h2 id="ii-pack-my-ruby">II. Pack my <em>Ruby</em></h2>
 
@@ -140,7 +142,7 @@
 <li>Install GitHub-pages gem</li>
 </ol>
 
-<hr />
+<hr class="gradient">
 
 <h2 id="iii-encounter-gem-roadblock">III. Encounter <em>Gem</em> roadblock</h2>
 
@@ -159,7 +161,7 @@
 
 <p>I nearly gave up on setting my site. As Jekyll is the de facto standard static site generator, I thought if I could not use Jekyll properly, I would never be able to host a site.</p>
 
-<hr />
+<hr class="gradient">
 
 <h2 id="iii-go-again-with-hugo">III. Go again with <strong>Hugo</strong></h2>
 
@@ -172,7 +174,7 @@
 
 <p>With Hugo, a decent site could be generated within seconds effortlessly. This blog adopts <a href="https://themes.gohugo.io/hugo-xmin/">Xmin theme</a> which offers nice content organization. Apart from the blinding white color scheme, I have no further comment on it as a happy user.</p>
 
-<hr />
+<hr class="gradient">
 
 <h2 id="iv-run-with-github-page">IV. Run with GitHub page</h2>
 
@@ -184,7 +186,7 @@
 <p>Anything that works is a solution, regardless of being stupid or not.</p>
 </blockquote>
 
-<hr />
+<hr class="gradient">
 
 <h2 id="finally">Finally&hellip;.</h2>
 
@@ -192,6 +194,8 @@
   <img src="http://i.imgur.com/rEXoo2l.png" align="middle" alt="Hugo - a dependency-free static site generator" style="width: 800px;">
   <figcaption>Successfully publish blog green-land!</figcaption>
 </figure>
+
+<hr />
 
 <p>If I want to refresh my blog, simply do the following</p>
 
@@ -211,19 +215,31 @@
 <li>delete the <code>public</code> directory inside <code>green-land</code></li>
 <li>rerun <code>hugo --buildDrafts --theme=hugo-xmin</code> without <code>server</code></li>
 <li>upload everything in the newly generated <code>public</code> to GitHub repository in a new branch</li>
-<li>delete the file corresponding to your updated page at <code>master</code> branch</li>
 <li>merge the branches</li>
 </ol>
+
+<hr />
+
+<div class="isa_error">
+Q: What if nothing shows up at GitHub-Page?</div>
+
+<div class="isa_info">
+A: If nothing shows at the GitHub-Page address, I should **always** check whether the site's <code>config.toml</code> has been properly configured. If there is one more <code>/</code>, the site URL would be <code>https://username.github.io/sitename/sitename/</code>, rather than <code>https://username.github.io/sitename/</code> specified in GitHub repository setting.</div>
+
+<hr class="gradient">
 
 <h2 id="p-s-still-a-long-way-to-go">P.S. Still a long way to go</h2>
 
 <p>This post ends here, but my journey with Hugo will continue. I understand that I cannot reach every place at once, and issues have to be solved one-by-one. This is my list of issues to be solved.</p>
 
 <ol class="task-list">
+<li><input type="checkbox" checked disabled class="task-list-item"> <strong>Use HTTPS connection</strong> : It turns out HTTPS is used by default</li>
 <li><input type="checkbox" disabled class="task-list-item"> <strong><a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/">Use my custom domain</a></strong></li>
 <li><input type="checkbox" disabled class="task-list-item"> <strong><a href="https://gohugo.io/themes/customizing/">Customize Hugo theme</a></strong></li>
 <li><input type="checkbox" disabled class="task-list-item"> <strong><a href="https://www.netlify.com">Deploy by Netlify</a></strong></li>
 </ol>
+
+<hr class="gradient">
 
 <h2 id="summary">Summary</h2>
 

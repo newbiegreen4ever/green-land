@@ -6,10 +6,22 @@
     <description>Recent content in Posts on greenLand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://newbiegreen4ever.github.io/green-land/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Art of Slack &amp; Relax in Office</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/26/art-of-slack-and-relax-at-office-job/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/26/art-of-slack-and-relax-at-office-job/</guid>
+      <description>First published at here
+Why choose to learn at office I work at a desk job, and I can somehow relate to your feeling. I adopt a slack-and-relax approach when learning code at office.
+ This job pays little, and I am just an unimportant small potato rotting in the cubicle. Instead of wasting my time here, why not try to make a better use of it?
+ Slack-and-relax approach My practice of discrete learning / slacking has been gradually changing since the first day of my work.</description>
+    </item>
     
     <item>
       <title>Learning `map()` in javaScript</title>

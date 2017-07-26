@@ -60,6 +60,8 @@
 </tbody>
 </table>
 
+<hr class="gradient">
+
 <h2 id="an-introduction-to-apis-by-brian-cooksey"><strong>&lt;&lt; An Introduction to APIs &gt;&gt; by Brian Cooksey</strong></h2>
 
 <p>This short ebook explains APIs in a clear and manageable way. The author is affiliated with Zapier, a tech firm earning a living on APIs.</p>
@@ -127,7 +129,7 @@
 <li>How An API Is Used</li>
 </ul>
 
-<pre><code>Keywords = {
+<pre><code class="language-json">keywords = {
     &quot;server&quot; : &quot;&quot;,
     &quot;client&quot; : &quot;&quot;,
     &quot;api&quot; : &quot;&quot;
@@ -138,12 +140,14 @@
 <li><input type="checkbox" checked disabled class="task-list-item"> <em>Homework</em>: Watch your favourite TV</li>
 </ul>
 
+<hr />
+
 <h2 id="chapter-2-protocols">Chapter 2: Protocols</h2>
 
 <ul>
 <li>Knowing the Rules</li>
 <li>The Protocol of the Web</li>
-<li>HTTP Protocol</li>
+<li>Hyper Text Transfer Protocol (HTTP)</li>
 </ul>
 
 <table>
@@ -182,6 +186,75 @@
 </ul>
 
 <p>I like the pizza parlor analogy. The exercise is fun to work with.</p>
+
+<hr />
+
+<h2 id="chapter-3-data-formats">Chapter 3: Data Formats</h2>
+
+<table>
+  <tr>
+    <th>JavaScript Object Notation (JSON)</th>
+    <th>Extensible Markup Language (XML)</th>
+  </tr>
+  <tr align="left">
+    <th>
+    <pre lang="json">
+{
+  "crust": "original",
+  "toppings": ["cheese", "pepperoni", "garlic"],
+  "status": "cooking",
+  "customer": {
+    "name": "Brian",
+    "phone": "573-111-1111"
+  }
+}
+    </pre>
+    </th>
+    <th>
+    <xmp>
+<order>
+  <crust>original</crust>
+  <toppings>
+    <topping>cheese</topping>
+    <topping>pepperoni</topping>
+    <topping>garlic</topping>
+  </toppings>
+  <status>cooking</status>
+</order>
+    </xmp>
+    </th>
+  </tr>
+</table>
+
+<ul>
+<li>There are two types of data formats for HTTP.</li>
+<li>The format of content-type header should be the same with the accept header in order to work properly</li>
+</ul>
+
+<div style="
+  color: #00529B;
+  background-color: #BDE5F8;">
+  Q: How to display the raw html code in Hugo?</div>
+
+<blockquote>
+<p>A: Wrap the raw html code in <code>&lt;xmp&gt;</code> tags.</p>
+</blockquote>
+
+<pre><code class="language-json">Keywords = {
+  &quot;JSON&quot;: &quot;JavaScript Object Notation&quot;,
+  &quot;Object&quot;: &quot;a thing or noun (person, pizza order...)&quot;,
+  &quot;Key&quot;: &quot;an attribute about an object (color, toppings...)&quot;,
+  &quot;Value&quot;: &quot;the value of an attribute (blue, pepperoni...)&quot;,
+  &quot;Associative array&quot;: &quot;a nested object&quot;,
+  &quot;XML&quot;: &quot;Extensible Markup Language&quot;
+}
+</code></pre>
+
+<ul class="task-list">
+<li><input type="checkbox" checked disabled class="task-list-item"> Play with HTTP requests and responses with different data formats</li>
+</ul>
+
+<hr />
 
 </main>
 

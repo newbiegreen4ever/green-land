@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/post/2017/07/26/art-of-slack-and-relax-at-office-job/</loc>
+    <lastmod>2017-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://newbiegreen4ever.github.io/green-land/post/2017/07/19/js-map/</loc>
     <lastmod>2017-07-19T00:00:00+00:00</lastmod>
   </url>
@@ -70,7 +75,7 @@
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/</loc>
-    <lastmod>2017-07-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -81,13 +86,13 @@
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/tags/javascript/</loc>
-    <lastmod>2017-07-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/tags/javascript/</loc>
-    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -99,7 +104,7 @@
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/post/</loc>
-    <lastmod>2017-07-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -112,6 +117,18 @@
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/categories/reading/</loc>
     <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/categories/reflection/</loc>
+    <lastmod>2017-07-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/tags/slack/</loc>
+    <lastmod>2017-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
