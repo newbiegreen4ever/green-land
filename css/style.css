@@ -65,7 +65,7 @@ tr:nth-child(odd) { background: #404040 }
 Author: Ibrahim Jabbari, web developer
 URL: https://codepen.io/ibrahimjabbari/pen/ozinB */
 
-hr.dash, hr.shadow, hr.gradient {
+hr.dash, hr.gradient {
   margin: 30px 0px 0px 30px;
 }
 
@@ -74,21 +74,19 @@ hr.dash {
 	border-top: 2px dashed #8c8b8b;
 }
 
-hr.shadow {
-	height: 10px;
-	border: 0;
-	box-shadow: 0 10px 10px -10px #8c8b8b inset;
-  padding: 12px;
-}
-
-hr.gradient {
+hr.slash {
   border: 0px;
   height: 1px;
   padding: 3px;
-  background-image: -webkit-linear-gradient(left, #33ff33, #272b30);
-  background-image: -moz-linear-gradient(left, #33ff33, #272b30);
-  background-image: -ms-linear-gradient(left, #33ff33, #272b30);
-  background-image: -o-linear-gradient(left, #33ff33, #272b30);
+  -webkit-border-radius: 40px 10px;
+  -moz-border-radius: 40px 10px;
+  -ms-border-radius: 40px 10px;
+  -o-border-radius: 40px 10px;
+  border-radius: 40px 10px;
+  background-image: -webkit-linear-gradient(left, #33ff33, #1d8000);
+  background-image: -moz-linear-gradient(left, #33ff33, #1d8000);
+  background-image: -ms-linear-gradient(left, #33ff33, #1d8000);
+  background-image: -o-linear-gradient(left, #33ff33, #1d8000);
 }
 
 
@@ -131,9 +129,9 @@ Author: W3School
 URL: https://www.w3schools.com/css/css_link.asp */
 
 a:link { color: #99ff33; }
-a:visited { color: #00cc00; }
-a:hover { color: #66ffff; }
-a:active { color: #00ff00; }
+a:visited { color: #33fff3; }
+a:hover { color: #ffc666; }
+a:active { color: #ff66f4; }
 
 
 /* blockquote */

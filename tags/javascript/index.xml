@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JavaScript on greenLand</title>
+    <title>Javascript on greenLand</title>
     <link>https://newbiegreen4ever.github.io/green-land/tags/javascript/</link>
-    <description>Recent content in JavaScript on greenLand</description>
+    <description>Recent content in Javascript on greenLand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://newbiegreen4ever.github.io/green-land/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Generate Headers for your log by Browser Console</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/29/generate-headers-for-your-log-by-browser-console/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/29/generate-headers-for-your-log-by-browser-console/</guid>
+      <description>I resume my habit of logging down coding activity, and then I see the importance of generating headers.
+I. List of days This snippet is an application of what I have learnt from Chapter 2 of《Eloquent JavaScript》. This javaScript snippet gives you a list of days for 100-days-of-code log.
+code
+var container = &amp;quot;&amp;quot;; for (i=34; i&amp;lt;65; i++) { container += &amp;quot;### Day &amp;quot; + i + &amp;quot;:&amp;quot; + &amp;quot;\n&amp;quot;; } console.</description>
+    </item>
     
     <item>
       <title>Learning `map()` in javaScript</title>
@@ -18,6 +30,15 @@
       
       <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/19/js-map/</guid>
       <description>Reference    Date Title Author URL     2017-05-31 Master Map &amp;amp; Filter, Javascript’s Most Powerful Array Functions Arnav Aggarwal Link   2014-02-24 how do you pass an array as a parameter in a function? Dave McFarland Link    Summary This article adopts a specific-to-abstract 4-stage approach to explain array functions. A quasi-map function is developed from multiplying each items in arr by 3.</description>
+    </item>
+    
+    <item>
+      <title>Book of July 2017</title>
+      <link>https://newbiegreen4ever.github.io/green-land/book/book-july-2017/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/book/book-july-2017/</guid>
+      <description>Start reading about JavaScript</description>
     </item>
     
   </channel>

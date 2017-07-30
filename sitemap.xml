@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/post/2017/07/29/generate-headers-for-your-log-by-browser-console/</loc>
+    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://newbiegreen4ever.github.io/green-land/post/2017/07/26/art-of-slack-and-relax-at-office-job/</loc>
     <lastmod>2017-07-26T00:00:00+00:00</lastmod>
   </url>
@@ -62,20 +67,20 @@
   </url>
   
   <url>
-    <loc>https://newbiegreen4ever.github.io/green-land/tags/emerson/</loc>
-    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+    <loc>https://newbiegreen4ever.github.io/green-land/tags/console/</loc>
+    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://newbiegreen4ever.github.io/green-land/categories/encouragement/</loc>
+    <loc>https://newbiegreen4ever.github.io/green-land/tags/eloquentjs/</loc>
     <lastmod>2017-07-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/</loc>
-    <lastmod>2017-07-26T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -86,25 +91,25 @@
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/tags/javascript/</loc>
-    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://newbiegreen4ever.github.io/green-land/tags/javascript/</loc>
-    <lastmod>2017-07-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/categories/note/</loc>
-    <lastmod>2017-07-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/post/</loc>
-    <lastmod>2017-07-26T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/categories/quote/</loc>
+    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -140,12 +145,6 @@
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/categories/walkthrough/</loc>
-    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://newbiegreen4ever.github.io/green-land/tags/eloquent-javascript/</loc>
     <lastmod>2017-07-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
