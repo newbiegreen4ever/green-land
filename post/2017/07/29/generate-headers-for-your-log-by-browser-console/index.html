@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Generate Headers for your log by Browser Console | greenLand</title>
+    <link rel="stylesheet" href="/green-land/css/style.css" />
+    <link rel="stylesheet" href="/green-land/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/green-land/">About</a></li>
+      
+      <li><a href="/green-land/post/">Posts</a></li>
+      
+      <li><a href="/green-land/book/">Books</a></li>
+      
+      <li><a href="/green-land/quote/">Quotes</a></li>
+      
+      <li><a href="/green-land/categories/">--Categories--</a></li>
+      
+      <li><a href="/green-land/tags/">--Tags--</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Generate Headers for your log by Browser Console</span></h1>
+
+<h2 class="date">2017/07/29</h2>
+</div>
+
+<main>
+
+
+<p>I resume my habit of logging down coding activity, and then I see the importance of generating headers.</p>
+
+<!-- a screenshot of 100-days-of-code, 100 log headers  -->
+
+<h2 id="i-list-of-days">I. List of days</h2>
+
+<p>This snippet is an application of what I have learnt from Chapter 2 of《Eloquent JavaScript》. This javaScript snippet gives you a list of days for 100-days-of-code log.</p>
+
+<p><strong>code</strong></p>
+
+<pre><code>var container = &quot;&quot;;
+for (i=34; i&lt;65; i++) {
+  container += &quot;### Day &quot; + i + &quot;:&quot; + &quot;\n&quot;;
+}
+console.log(container);
+</code></pre>
+
+<p><strong>result</strong></p>
+
+<blockquote>
+<h3 id="day-1">Day 1:</h3>
+
+<h3 id="day-2">Day 2:</h3>
+
+<p>&hellip;</p>
+
+<h3 id="day-64">Day 64:</h3>
+</blockquote>
+
+<hr class="slash">
+
+<h2 id="ii-which-day">II. Which day?</h2>
+
+<p>Then, I add the feature of displaying &ldquo;&mdash;-day&rdquo; by adding a <code>counter</code></p>
+
+<p><strong>code</strong></p>
+
+<pre><code>var container = &quot;&quot;;
+var counter = 0;
+for (i=34; i&lt;65; i++) {
+  counter ++;
+  if (counter%7 == 1) {
+    container += &quot;### Day &quot; + i + &quot;: (Monday)&quot; + &quot;\n&quot;;
+  } else if (counter%7 === 2){
+    container += &quot;### Day &quot; + i + &quot;: (Tuesday)&quot; + &quot;\n&quot;;
+  } else if (counter%7 === 3) {
+    container += &quot;### Day &quot; + i + &quot;: (Wednesday)&quot; + &quot;\n&quot;;
+  } else if (counter%7 === 4) {
+    container += &quot;### Day &quot; + i + &quot;: (Thursday)&quot; + &quot;\n&quot;;
+  } else if (counter%7 === 5) {
+    container += &quot;### Day &quot; + i + &quot;: (Friday)&quot; + &quot;\n&quot;;
+  } else if (counter%7 === 6) {
+    container += &quot;### Day &quot; + i + &quot;: (Saturday)&quot; + &quot;\n&quot;;
+  } else if (counter%7 === 0) {
+    container += &quot;### Day &quot; + i + &quot;: (Sunday)&quot; + &quot;\n&quot;;
+  } else {
+    container += &quot;&quot;;
+  }
+}
+console.log(container);
+</code></pre>
+
+<p><strong>result</strong></p>
+
+<blockquote>
+<h3 id="day-1-monday">Day 1: (Monday)</h3>
+
+<h3 id="day-2-tuesday">Day 2: (Tuesday)</h3>
+
+<p>&hellip;</p>
+
+<h3 id="day-64-monday">Day 64: (Monday)</h3>
+</blockquote>
+
+<p>If I want to start from Tuesday, set <code>counter = 1</code>
+When <code>counter</code> enters the for-loop, <code>counter++</code> would add 1 to it.
+When <code>counter</code> enters the string of if-else-if conditional, <code>counter = 2</code> and therefore it gives &ldquo;Tuesday&rdquo;!</p>
+
+<hr class="slash">
+
+<h2 id="iii-more-details">III. More details</h2>
+
+<p>To save copy-and-paste time, I add <strong>Today&rsquo;s Progress</strong>, <strong>Thoughts</strong> and <strong>Link(s) to work</strong> in <code>container</code> as well.</p>
+
+<p><strong>code</strong></p>
+
+<pre><code>var container = &quot;&quot;;
+var counter = 0;
+for (i=34; i&lt;65; i++) {
+  counter ++;
+  if (counter%7 == 1) {
+    container += &quot;### Day &quot; + i + &quot;: (Monday)&quot; + &quot;\n&quot; + &quot;**Today's Progress**&quot; + &quot;\n&quot; + &quot;**Thoughts**&quot; + &quot;\n&quot; + &quot;**Link(s) to work**&quot; + &quot;\n&quot; + &quot;\n&quot;;
+  } else if (counter%7 === 2){
+    container += &quot;### Day &quot; + i + &quot;: (Tuesday)&quot; + &quot;\n&quot; + &quot;**Today's Progress**&quot; + &quot;\n&quot; + &quot;**Thoughts**&quot; + &quot;\n&quot; + &quot;**Link(s) to work**&quot; + &quot;\n&quot; + &quot;\n&quot;;
+  } else if (counter%7 === 3) {
+    container += &quot;### Day &quot; + i + &quot;: (Wednesday)&quot; + &quot;\n&quot; + &quot;**Today's Progress**&quot; + &quot;\n&quot; + &quot;**Thoughts**&quot; + &quot;\n&quot; + &quot;**Link(s) to work**&quot; + &quot;\n&quot; + &quot;\n&quot;;
+  } else if (counter%7 === 4) {
+    container += &quot;### Day &quot; + i + &quot;: (Thursday)&quot; + &quot;\n&quot; + &quot;**Today's Progress**&quot; + &quot;\n&quot; + &quot;**Thoughts**&quot; + &quot;\n&quot; + &quot;**Link(s) to work**&quot; + &quot;\n&quot; + &quot;\n&quot;;
+  } else if (counter%7 === 5) {
+    container += &quot;### Day &quot; + i + &quot;: (Friday)&quot; + &quot;\n&quot; + &quot;**Today's Progress**&quot; + &quot;\n&quot; + &quot;**Thoughts**&quot; + &quot;\n&quot; + &quot;**Link(s) to work**&quot; + &quot;\n&quot; + &quot;\n&quot;;
+  } else if (counter%7 === 6) {
+    container += &quot;### Day &quot; + i + &quot;: (Saturday)&quot; + &quot;\n&quot; + &quot;**Today's Progress**&quot; + &quot;\n&quot; + &quot;**Thoughts**&quot; + &quot;\n&quot; + &quot;**Link(s) to work**&quot; + &quot;\n&quot; + &quot;\n&quot;;
+  } else if (counter%7 === 0) {
+    container += &quot;### Day &quot; + i + &quot;: (Sunday)&quot; + &quot;\n&quot; + &quot;**Today's Progress**&quot; + &quot;\n&quot; + &quot;**Thoughts**&quot; + &quot;\n&quot; + &quot;**Link(s) to work**&quot; + &quot;\n&quot; + &quot;\n&quot;;
+  } else {
+    container += &quot;&quot;;
+  }
+}
+console.log(container);
+</code></pre>
+
+<p><strong>result</strong></p>
+
+<blockquote>
+<h3 id="day-34-tuesday">Day 34: (Tuesday)</h3>
+
+<p><strong>Today&rsquo;s Progress</strong></p>
+
+<p><strong>Thoughts</strong></p>
+
+<p><strong>Link(s) to work</strong></p>
+
+<h3 id="day-35-wednesday">Day 35: (Wednesday)</h3>
+
+<p><strong>Today&rsquo;s Progress</strong></p>
+
+<p><strong>Thoughts</strong></p>
+
+<p><strong>Link(s) to work</strong></p>
+
+<p>&hellip;</p>
+
+<h3 id="day-64-thursday">Day 64: (Thursday)</h3>
+
+<p><strong>Today&rsquo;s Progress</strong></p>
+
+<p><strong>Thoughts</strong></p>
+
+<p><strong>Link(s) to work</strong></p>
+</blockquote>
+
+<hr class="slash">
+
+<h2 id="iv-simpler-code">IV. Simpler Code</h2>
+
+<p>The code snippet looks messy with repeating <code>&quot;**Today's Progress**&quot; + &quot;\n&quot; + &quot;**Thoughts**&quot; + &quot;\n&quot; + &quot;**Link(s) to work**&quot; + &quot;\n&quot; + &quot;\n&quot;;</code>. I try keep myself DRY (Don&rsquo;t Repeat Yourself) and improve the readability of the snippet.</p>
+
+<p><strong>code</strong></p>
+
+<pre><code>var container = &quot;&quot;;
+var counter = 0;
+for (i=34; i&lt;65; i++) {
+  counter ++;
+  if (counter%7 == 1) {
+    container += &quot;### Day &quot; + i + &quot;: (Monday)&quot;;
+    } else if (counter%7 === 2) {
+    container += &quot;### Day &quot; + i + &quot;: (Tuesday)&quot;;
+    } else if (counter%7 === 3) {
+    container += &quot;### Day &quot; + i + &quot;: (Wednesday)&quot;;
+    } else if (counter%7 === 4) {
+    container += &quot;### Day &quot; + i + &quot;: (Thursday)&quot;;
+    } else if (counter%7 === 5) {
+    container += &quot;### Day &quot; + i + &quot;: (Friday)&quot;;
+    } else if (counter%7 === 6) {
+    container += &quot;### Day &quot; + i + &quot;: (Saturday)&quot;;
+    } else {
+    container += &quot;### Day &quot; + i + &quot;: (Sunday)&quot;;
+    }
+  container += &quot;\n&quot; + &quot;\n&quot; + &quot;**Today's Progress**&quot; + &quot;\n&quot; + &quot;\n&quot; + &quot;**Thoughts**&quot; + &quot;\n&quot; + &quot;\n&quot; + &quot;**Link(s) to work**&quot; + &quot;\n&quot; + &quot;\n&quot; + &quot;\n&quot;;
+}
+console.log(container);
+</code></pre>
+
+<p><strong>result</strong></p>
+
+<blockquote>
+<h3 id="day-34-tuesday-1">Day 34: (Tuesday)</h3>
+
+<p><strong>Today&rsquo;s Progress</strong></p>
+
+<p><strong>Thoughts</strong></p>
+
+<p><strong>Link(s) to work</strong></p>
+
+<h3 id="day-35-wednesday-1">Day 35: (Wednesday)</h3>
+
+<p><strong>Today&rsquo;s Progress</strong></p>
+
+<p><strong>Thoughts</strong></p>
+
+<p><strong>Link(s) to work</strong></p>
+
+<p>&hellip;</p>
+
+<h3 id="day-64-thursday-1">Day 64: (Thursday)</h3>
+
+<p><strong>Today&rsquo;s Progress</strong></p>
+
+<p><strong>Thoughts</strong></p>
+
+<p><strong>Link(s) to work</strong></p>
+</blockquote>
+
+<hr class="slash">
+
+<h2 id="p-s">P. S.</h2>
+
+<div class="isa_warning">NB : This code snippet works in Opera and Chrome console, but it does not work in FireFox console. In FireFox, the code can run but the result is <code>undefined</code>.</div>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  &copy; <a href="http://newbiegreen4ever.github.io/greenland/">Newbie Green</a> 2017
+  
+  </footer>
+  </body>
+</html>
+

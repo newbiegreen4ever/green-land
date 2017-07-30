@@ -6,10 +6,22 @@
     <description>Recent content in Posts on greenLand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://newbiegreen4ever.github.io/green-land/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Generate Headers for your log by Browser Console</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/29/generate-headers-for-your-log-by-browser-console/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/29/generate-headers-for-your-log-by-browser-console/</guid>
+      <description>I resume my habit of logging down coding activity, and then I see the importance of generating headers.
+I. List of days This snippet is an application of what I have learnt from Chapter 2 of《Eloquent JavaScript》. This javaScript snippet gives you a list of days for 100-days-of-code log.
+code
+var container = &amp;quot;&amp;quot;; for (i=34; i&amp;lt;65; i++) { container += &amp;quot;### Day &amp;quot; + i + &amp;quot;:&amp;quot; + &amp;quot;\n&amp;quot;; } console.</description>
+    </item>
     
     <item>
       <title>The Art of Slack &amp; Relax in Office</title>

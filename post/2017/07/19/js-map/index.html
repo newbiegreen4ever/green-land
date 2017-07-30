@@ -38,6 +38,8 @@
 <main>
 
 
+<!-- TODO add my map() shortform example-->
+
 <h2 id="reference">Reference</h2>
 
 <table>
@@ -67,7 +69,7 @@
 </tbody>
 </table>
 
-<hr class="gradient">
+<hr class="slash">
 
 <h2 id="summary">Summary</h2>
 
@@ -84,7 +86,7 @@ III. array itself</p>
 
 <p>I write my own examples referring to articles in the reading list. All examples have run successfully in Google Developer console.</p>
 
-<hr class="gradient">
+<hr class="slash">
 
 <h2 id="i-map-callback-taking-item-parameter">I. Map() callback taking <em>item</em> parameter</h2>
 
@@ -105,7 +107,7 @@ function map (arr, transformFun) {
 map (arr, squareItem);
 </code></pre>
 
-<hr class="gradient">
+<hr class="slash">
 
 <h2 id="ii-map-callback-taking-index-parameter">II. Map() callback taking <em>index</em> parameter</h2>
 
@@ -129,7 +131,7 @@ function map (arr, transformFun) {
 map (arr, listItem);
 </code></pre>
 
-<hr class="gradient">
+<hr class="slash">
 
 <h2 id="iii-map-callback-function-taking-array-itself-as-parameter">III. Map() callback function taking <em>array itself</em> as parameter</h2>
 
@@ -146,7 +148,7 @@ function arrayCounter (array) {
 myArray.map(arrayCounter);
 </code></pre>
 
-<hr class="gradient">
+<hr class="slash">
 
 <h2 id="format">Format</h2>
 
@@ -154,9 +156,9 @@ myArray.map(arrayCounter);
 Ah ha ~ Finally I figure out how this weird format works!</p>
 
 <pre><code>var arr = [1, 2, 3, 4, 5];
-var arrTimesThree = arr.map(function(item) {
+var arrTimesThree = arr.map( function(item) {
    return item * 3;
-});
+} );
 console.log(arrTimesThree); // -&gt; [3, 6, 9, 12, 15]
 </code></pre>
 

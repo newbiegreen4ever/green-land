@@ -39,11 +39,20 @@
     </item>
     
     <item>
-      <title>Emerson</title>
-      <link>https://newbiegreen4ever.github.io/green-land/tags/emerson/</link>
+      <title>Console</title>
+      <link>https://newbiegreen4ever.github.io/green-land/tags/console/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/tags/console/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eloquentjs</title>
+      <link>https://newbiegreen4ever.github.io/green-land/tags/eloquentjs/</link>
       <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://newbiegreen4ever.github.io/green-land/tags/emerson/</guid>
+      <guid>https://newbiegreen4ever.github.io/green-land/tags/eloquentjs/</guid>
       <description></description>
     </item>
     
@@ -57,18 +66,9 @@
     </item>
     
     <item>
-      <title>JavaScript</title>
+      <title>Javascript</title>
       <link>https://newbiegreen4ever.github.io/green-land/tags/javascript/</link>
-      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://newbiegreen4ever.github.io/green-land/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JavaScript</title>
-      <link>https://newbiegreen4ever.github.io/green-land/tags/javascript/</link>
-      <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://newbiegreen4ever.github.io/green-land/tags/javascript/</guid>
       <description></description>
@@ -80,15 +80,6 @@
       <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://newbiegreen4ever.github.io/green-land/tags/slack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>《Eloquent JavaSCript》</title>
-      <link>https://newbiegreen4ever.github.io/green-land/tags/eloquent-javascript/</link>
-      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://newbiegreen4ever.github.io/green-land/tags/eloquent-javascript/</guid>
       <description></description>
     </item>
     
