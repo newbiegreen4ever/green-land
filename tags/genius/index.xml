@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Genius on greenLand</title>
+    <link>https://newbiegreen4ever.github.io/green-land/tags/genius/</link>
+    <description>Recent content in Genius on greenLand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://newbiegreen4ever.github.io/green-land/tags/genius/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quote on Genius</title>
+      <link>https://newbiegreen4ever.github.io/green-land/quote/2017/07/30/quote-on-genius/</link>
+      <pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/quote/2017/07/30/quote-on-genius/</guid>
+      <description>Talent is a flame. Genius is a fire. - Sir Bernard Arthur Owen Williams</description>
+    </item>
+    
+  </channel>
+</rss>

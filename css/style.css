@@ -65,16 +65,7 @@ tr:nth-child(odd) { background: #404040 }
 Author: Ibrahim Jabbari, web developer
 URL: https://codepen.io/ibrahimjabbari/pen/ozinB */
 
-hr.dash, hr.gradient {
-  margin: 30px 0px 0px 30px;
-}
-
-hr.dash {
-	background-color: #fff;
-	border-top: 2px dashed #8c8b8b;
-}
-
-hr.slash {
+hr {
   border: 0px;
   height: 1px;
   padding: 3px;
@@ -89,7 +80,14 @@ hr.slash {
   background-image: -o-linear-gradient(left, #33ff33, #1d8000);
 }
 
+/*hr.dash, hr.gradient {
+  margin: 30px 0px 0px 30px;
+}
 
+hr.dash {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}*/
 
 /* speech bubble */
 /* Reference
