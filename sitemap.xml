@@ -3,12 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/post/2017/08/02/js-closure/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/post/2017/08/02/js-arrow-function/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/post/2017/08/01/js-reduce/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/log/2017/08/01/proper-branch-naming/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/log/2017/08/01/dev-tea-focusmedia/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/log/2017/08/01/dev-tea-learning/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/post/2017/07/31/fcc-weather-app-walkthrough/</loc>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/quote/2017/07/30/quote-on-genius/</loc>
+    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://newbiegreen4ever.github.io/green-land/post/2017/07/29/generate-headers-for-your-log-by-browser-console/</loc>
     <lastmod>2017-07-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://newbiegreen4ever.github.io/green-land/post/2017/07/26/art-of-slack-and-relax-at-office-job/</loc>
+    <loc>https://newbiegreen4ever.github.io/green-land/log/2017/07/26/art-of-slack-and-relax-at-office-job/</loc>
     <lastmod>2017-07-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -19,7 +59,7 @@
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/post/2017/07/17/first-step-to-api/</loc>
-    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,7 +68,7 @@
   </url>
   
   <url>
-    <loc>https://newbiegreen4ever.github.io/green-land/note/2017/07/14/quote-on-aim/</loc>
+    <loc>https://newbiegreen4ever.github.io/green-land/quote/2017/07/14/quote-on-aim/</loc>
     <lastmod>2017-07-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -45,7 +85,7 @@
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/tags/api/</loc>
-    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -68,7 +108,7 @@
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/tags/console/</loc>
-    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -79,8 +119,26 @@
   </url>
   
   <url>
-    <loc>https://newbiegreen4ever.github.io/green-land/</loc>
+    <loc>https://newbiegreen4ever.github.io/green-land/tags/freecodecamp/</loc>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/tags/genius/</loc>
     <lastmod>2017-07-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/tags/growth/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -91,31 +149,49 @@
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/tags/javascript/</loc>
-    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/tags/jquery/</loc>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/log/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/tags/mark/</loc>
+    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/categories/note/</loc>
-    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/post/</loc>
-    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/categories/quote/</loc>
-    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/quote/</loc>
-    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -127,7 +203,7 @@
   
   <url>
     <loc>https://newbiegreen4ever.github.io/green-land/categories/reflection/</loc>
-    <lastmod>2017-07-26T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -144,8 +220,14 @@
   </url>
   
   <url>
+    <loc>https://newbiegreen4ever.github.io/green-land/tags/talent/</loc>
+    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://newbiegreen4ever.github.io/green-land/categories/walkthrough/</loc>
-    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

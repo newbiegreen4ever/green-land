@@ -15,9 +15,11 @@
       
       <li><a href="/green-land/">About</a></li>
       
-      <li><a href="/green-land/post/">Posts</a></li>
-      
       <li><a href="/green-land/book/">Books</a></li>
+      
+      <li><a href="/green-land/log/">Logs</a></li>
+      
+      <li><a href="/green-land/post/">Posts</a></li>
       
       <li><a href="/green-land/quote/">Quotes</a></li>
       
@@ -38,7 +40,7 @@
 <main>
 
 
-<h2 id="reference">Reference</h2>
+<h1 id="reference">Reference</h1>
 
 <table>
 <thead>
@@ -81,57 +83,34 @@
 </tbody>
 </table>
 
-<hr class="slash">
+<hr />
 
-<h2 id="why-blogging">Why blogging?</h2>
+<h1 id="why-blogging">Why blogging?</h1>
 
 <p>There are several good reasons to blog.</p>
 
-<table>
-<thead>
-<tr>
-<th align="center">#</th>
-<th align="left">Reasons behind blogging</th>
-<th align="left">Explanation</th>
-</tr>
-</thead>
+<h1 id="reasons-behind-blogging-explanation">| Reasons behind blogging      | Explanation</h1>
 
-<tbody>
-<tr>
-<td align="center">1.</td>
-<td align="left">Build memory palace</td>
-<td align="left">A personal blog enables you to organize content in a fully customized fashion. This makes it easier to collect and retrieve information for later use.</td>
-</tr>
+<p>:: | :&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; | :&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+1. | Build memory palace          | A personal blog enables you to organize content in a fully customized fashion. This makes it easier to collect and retrieve information for later use.
+2. | Express oneself with clarity | Writing is the best way to capture diffusing thoughts and fleeting inspirations.
+3. | Play with self-host          | Self-hosting sounds cool.</p>
 
-<tr>
-<td align="center">2.</td>
-<td align="left">Express oneself with clarity</td>
-<td align="left">Writing is the best way to capture diffusing thoughts and fleeting inspirations.</td>
-</tr>
+<hr />
 
-<tr>
-<td align="center">3.</td>
-<td align="left">Play with self-host</td>
-<td align="left">Self-hosting sounds cool.</td>
-</tr>
-</tbody>
-</table>
+<h1 id="i-get-started-with-jekyll">I. Get started with <em>Jekyll</em></h1>
 
-<hr class="slash">
-
-<h2 id="i-get-started-with-jekyll">I. Get started with <em>Jekyll</em></h2>
-
-<p><img src="http://i.imgur.com/Fqede55.png" align="middle" alt="Jekyll" style="width: 500px;"/></p>
+<p><img src="http://i.imgur.com/Fqede55.png" alt="Jekyll" /></p>
 
 <p>A friend mentioned Jekyll when talking about building and hosting sites. Being naively stupid, I started googling and reading about Jekyll right away without giving much thought on other alternatives. This mistake cost me nearly 8 hours of leisure time.</p>
 
 <p>The official <a href="https://jekyllrb.com/docs/windows/">Jekyll on Windows</a> walkthrough is my main source of information. I installed Jekyll via Chocolatey, a package manager on Windows.</p>
 
-<hr class="slash">
+<hr />
 
-<h2 id="ii-pack-my-ruby">II. Pack my <em>Ruby</em></h2>
+<h1 id="ii-pack-my-ruby">II. Pack my <em>Ruby</em></h1>
 
-<p><img src="http://i.imgur.com/8eYutui.png" align="right" alt="Ruby" style="width: 170px;"/></p>
+<p><img src="http://i.imgur.com/8eYutui.png" alt="Ruby" /></p>
 
 <p>Before I could run Jekyll on Window, I had to install Ruby, the engine that runs Jekyll. According to the official Jekyll on Windows guide, there are 4 steps:</p>
 
@@ -142,11 +121,11 @@
 <li>Install GitHub-pages gem</li>
 </ol>
 
-<hr class="slash">
+<hr />
 
-<h2 id="iii-encounter-gem-roadblock">III. Encounter <em>Gem</em> roadblock</h2>
+<h1 id="iii-encounter-gem-roadblock">III. Encounter <em>Gem</em> roadblock</h1>
 
-<p><img src="http://i.imgur.com/lmb81zg.png" align="left" alt="Ruby Gem" style="width: 170px;"/></p>
+<p><img src="http://i.imgur.com/lmb81zg.png" alt="Ruby Gem" /></p>
 
 <p><code>Gem</code> is a type of package written in Ruby, and it is notoriously troublesome to install and run on Windows (incompatible people just can&rsquo;t get along). I could perform steps 1 to 3, but the installation of GitHub-pages gem failed due to dependencies issue.</p>
 
@@ -161,22 +140,23 @@
 
 <p>I nearly gave up on setting my site. As Jekyll is the de facto standard static site generator, I thought if I could not use Jekyll properly, I would never be able to host a site.</p>
 
-<hr class="slash">
+<hr />
 
-<h2 id="iii-go-again-with-hugo">III. Go again with <strong>Hugo</strong></h2>
+<h1 id="iii-go-again-with-hugo">III. Go again with <strong>Hugo</strong></h1>
 
 <figure>
   <img src="http://i.imgur.com/JWtHLxU.png" align="middle" alt="Hugo - a dependency-free static site generator" style="width: 500px;">
-  <figcaption></figcaption>
+  <figcaption>
+</figcaption>
 </figure>
 
 <p>Later I ran across <strong><a href="https://gohugo.io">Hugo</a></strong>. It is a fast static site generator that can <a href="https://gohugo.io/overview/introduction/">run without dependencies</a>. I decided to give it a try.</p>
 
 <p>With Hugo, a decent site could be generated within seconds effortlessly. This blog adopts <a href="https://themes.gohugo.io/hugo-xmin/">Xmin theme</a> which offers nice content organization. Apart from the blinding white color scheme, I have no further comment on it as a happy user.</p>
 
-<hr class="slash">
+<hr />
 
-<h2 id="iv-run-with-github-page">IV. Run with GitHub page</h2>
+<h1 id="iv-run-with-github-page">IV. Run with GitHub page</h1>
 
 <p><a href="https://codeburst.io/how-to-get-your-website-online-easily-with-github-44ea5ce2997d">&ldquo;How to get your website online easily with Github&rdquo;</a> written by Julio F. has been a great help. I knew that decent developers should dig deep into official GitHub Pages documentations, but GUI is much more friendly to newbie. I wasted &gt; 10 hours bumping my head against the wall trying to push my site via command line.</p>
 
@@ -186,9 +166,9 @@
 <p>Anything that works is a solution, regardless of being stupid or not.</p>
 </blockquote>
 
-<hr class="slash">
+<hr />
 
-<h2 id="finally">Finally&hellip;.</h2>
+<h1 id="finally">Finally&hellip;.</h1>
 
 <figure>
   <img src="http://i.imgur.com/rEXoo2l.png" align="middle" alt="Hugo - a dependency-free static site generator" style="width: 800px;">
@@ -224,11 +204,15 @@
 Q: What if nothing shows up at GitHub-Page?</div>
 
 <div class="isa_info">
-A: If nothing shows at the GitHub-Page address, I should **always** check whether the site's <code>config.toml</code> has been properly configured. If there is one more <code>/</code>, the site URL would be <code>https://username.github.io/sitename/sitename/</code>, rather than <code>https://username.github.io/sitename/</code> specified in GitHub repository setting.</div>
+A: If nothing shows at the GitHub-Page address, I should <strong>always</strong> check whether the site's <code>config.toml</code> has been properly configured. If there is one more <code>/</code>, the site URL would be <code>
+  <a href="https://username.github.io/sitename/sitename/">https://username.github.io/sitename/sitename/</a>
+</code>, rather than <code>
+  <a href="https://username.github.io/sitename/">https://username.github.io/sitename/</a>
+</code> specified in GitHub repository setting.</div>
 
-<hr class="slash">
+<hr />
 
-<h2 id="p-s-still-a-long-way-to-go">P.S. Still a long way to go</h2>
+<h1 id="p-s-still-a-long-way-to-go">P.S. Still a long way to go</h1>
 
 <p>This post ends here, but my journey with Hugo will continue. I understand that I cannot reach every place at once, and issues have to be solved one-by-one. This is my list of issues to be solved.</p>
 
@@ -239,9 +223,9 @@ A: If nothing shows at the GitHub-Page address, I should **always** check whethe
 <li><input type="checkbox" disabled class="task-list-item"> <strong><a href="https://www.netlify.com">Deploy by Netlify</a></strong></li>
 </ol>
 
-<hr class="slash">
+<hr />
 
-<h2 id="summary">Summary</h2>
+<h1 id="summary">Summary</h1>
 
 <ul>
 <li>In retrospect, I realize that it only took me little effort to build a Hugo site. Hugo is newbie-friendly enough.</li>

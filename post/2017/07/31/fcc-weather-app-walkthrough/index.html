@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FreeCodeCamp Weather App Walkthrough | greenLand</title>
+    <link rel="stylesheet" href="/green-land/css/style.css" />
+    <link rel="stylesheet" href="/green-land/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/green-land/">About</a></li>
+      
+      <li><a href="/green-land/book/">Books</a></li>
+      
+      <li><a href="/green-land/log/">Logs</a></li>
+      
+      <li><a href="/green-land/post/">Posts</a></li>
+      
+      <li><a href="/green-land/quote/">Quotes</a></li>
+      
+      <li><a href="/green-land/categories/">--Categories--</a></li>
+      
+      <li><a href="/green-land/tags/">--Tags--</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">FreeCodeCamp Weather App Walkthrough</span></h1>
+
+<h2 class="date">2017/07/31</h2>
+</div>
+
+<main>
+
+
+<!-- TODO add Google Map XHR screenshot -->
+
+<h1 id="reference">Reference</h1>
+
+<table>
+<thead>
+<tr>
+<th align="center">Date</th>
+<th align="left">Title</th>
+<th align="center">Author</th>
+<th align="center">URL</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">2017</td>
+<td align="left">Introduction to APIs and AJAX</td>
+<td align="center">Epicodus Code School</td>
+<td align="center"><a href="https://www.learnhowtoprogram.com/javascript/modern-js-apps/introduction-to-apis-and-ajax">Link</a></td>
+</tr>
+
+<tr>
+<td align="center">N/A</td>
+<td align="left">jQuery - AJAX Introduction</td>
+<td align="center">w3schools.com</td>
+<td align="center"><a href="https://www.w3schools.com/jquery/jquery_ajax_load.asp">Link</a></td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h1 id="what-is-a-weather-app">What is a Weather App?</h1>
+
+<p>The <a href="http://openweathermap.org">Open Weather Map</a> provides free weather data across the globe. Our Weather App is a webpage that can &hellip;</p>
+
+<ol>
+<li>interface with Open Weather Map API</li>
+<li>make AJAX requests</li>
+<li>fetch weather data from the server</li>
+<li>display weather data</li>
+</ol>
+
+<h1 id="what-is-api-ajax">What is API &amp; AJAX?</h1>
+
+<p>Our webpage can communicate with Open Weather APIs (Application Programming Interface) by <strong>AJAX</strong> (Asynchronous JavaScript And XML, formally known as XMLHttpRequest Object, or <strong>XHR</strong>).</p>
+
+<blockquote>
+<p>In short; AJAX is about loading data in the background and display it on the webpage, without reloading the whole page. &ndash;<a href="https://www.w3schools.com/jquery/jquery_ajax_intro.asp">W3Schools</a></p>
+</blockquote>
+
+<p>AJAX request gets data, often in JSON rather XML format, from the server, and the JavaScript dynamically change the HTML code to display the data. API &amp; AJAX is common method with which Twitter loads more tweets and Google Map display more details by dynamic JavaScript without reloading</p>
+
+<!-- screenshot of more tweets / more articles -->
+
+<p>Under default browser Same Origin Policy, a web page can only make AJAX requests to the same domain it was loaded from. For example, after I log in my ebanking account in my browser, I can make AJAX requests that are <em>trusted</em> by my bank; if I visit a malicious website which sends AJAX requests to transfer money out of my bank account, my browser will block all AJAX requests because I have not authenticated by logging in my account. This is a general security measure.</p>
+
+<p>However, there are some exceptions. CORS (Cross-Origin Resource Sharing) standard is implemented by modern servers and browsers. This enables APIs specifying which domains are allowed to make AJAX requests. Some APIs allow all domains to make AJAX requests, such as Open Weather Map API <a href="http://openweathermap.org">Open Weather Map</a>. It permits cross-origin requests and makes its weather data available to any website, from any domain. After all, this is only weather data, not bank saving.</p>
+
+<hr />
+
+<h1 id="how-to-make-ajax-requests-by-jquery">How to make AJAX requests by jQuery?</h1>
+
+<table>
+<thead>
+<tr>
+<th align="center">jQuery Method</th>
+<th align="left">Code</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">load() Method</td>
+<td align="left"><code>$(selector).load(URL,data,callback);</code></td>
+</tr>
+
+<tr>
+<td align="center">$.get() Method</td>
+<td align="left"><code>$.get(URL,callback);</code></td>
+</tr>
+
+<tr>
+<td align="center">$.post() Method</td>
+<td align="left"><code>$.post(URL,data,callback);</code></td>
+</tr>
+</tbody>
+</table>
+
+<p>These jQuery Methods often used in combo with <code>$(&quot;button&quot;).click(function(){});</code> and <code>if (failedLoading) alert (&quot;XXX&quot;)</code></p>
+
+<h2 id="1-jquery-load-method">1. jQuery load() Method</h2>
+
+<ol>
+<li>load data from a server</li>
+<li>put the returned data into the selected element.</li>
+</ol>
+
+<pre><code class="language-html">&lt;script&gt;
+$(document).ready(function(){
+    $(&quot;button&quot;).click(function(){
+        $(&quot;#div1&quot;).load(&quot;demo_test.txt&quot;, function(responseTxt, statusTxt, xhr){
+            if(statusTxt == &quot;success&quot;)
+                alert(&quot;External content loaded successfully!&quot;);
+            if(statusTxt == &quot;error&quot;)
+                alert(&quot;Error: &quot; + xhr.status + &quot;: &quot; + xhr.statusText);
+        });
+    });
+});
+&lt;/script&gt;
+</code></pre>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  &copy; <a href="http://newbiegreen4ever.github.io/greenland/">Newbie Green</a> 2017
+  
+  </footer>
+  </body>
+</html>
+

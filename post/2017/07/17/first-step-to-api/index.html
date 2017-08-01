@@ -15,9 +15,11 @@
       
       <li><a href="/green-land/">About</a></li>
       
-      <li><a href="/green-land/post/">Posts</a></li>
-      
       <li><a href="/green-land/book/">Books</a></li>
+      
+      <li><a href="/green-land/log/">Logs</a></li>
+      
+      <li><a href="/green-land/post/">Posts</a></li>
       
       <li><a href="/green-land/quote/">Quotes</a></li>
       
@@ -38,13 +40,9 @@
 <main>
 
 
-<!-- TODO add Ch4, 5-->
+<!-- TODO add Ch6, 7, 8 -->
 
-<!-- FIXME change hr.gradient to hr.slash-->
-
-<!-- FIXME change html raw code to isa.info css-->
-
-<h2 id="reference">Reference</h2>
+<h1 id="reference">Reference</h1>
 
 <table>
 <thead>
@@ -66,9 +64,9 @@
 </tbody>
 </table>
 
-<hr class="slash">
+<hr />
 
-<h2 id="an-introduction-to-apis-by-brian-cooksey"><strong>&lt;&lt; An Introduction to APIs &gt;&gt; by Brian Cooksey</strong></h2>
+<h1 id="an-introduction-to-apis-by-brian-cooksey"><strong>&lt;&lt; An Introduction to APIs &gt;&gt; by Brian Cooksey</strong></h1>
 
 <p>This short ebook explains APIs in a clear and manageable way. The author is affiliated with Zapier, a tech firm earning a living on APIs.</p>
 
@@ -127,7 +125,7 @@
 
 <hr />
 
-<h2 id="chapter-1-introduction">Chapter 1: Introduction</h2>
+<h1 id="chapter-1-introduction">Chapter 1: Introduction</h1>
 
 <ul>
 <li>A Frame of Reference</li>
@@ -136,9 +134,9 @@
 </ul>
 
 <pre><code class="language-json">keywords = {
-    &quot;server&quot; : &quot;&quot;,
-    &quot;client&quot; : &quot;&quot;,
-    &quot;api&quot; : &quot;&quot;
+    &quot;server&quot; : &quot;a powerful computer without screen and keyboard, but capable to to lots of things beyond the capability of ordinary laptops&quot;,
+    &quot;client&quot; : &quot;the interface where the user connects with server, can be in form of a website&quot;,
+    &quot;api&quot; : &quot;Application Programming Interface&quot;
 }
 </code></pre>
 
@@ -148,7 +146,7 @@
 
 <hr />
 
-<h2 id="chapter-2-protocols">Chapter 2: Protocols</h2>
+<h1 id="chapter-2-protocols">Chapter 2: Protocols</h1>
 
 <ul>
 <li>Knowing the Rules</li>
@@ -195,56 +193,52 @@
 
 <hr />
 
-<h2 id="chapter-3-data-formats">Chapter 3: Data Formats</h2>
+<h1 id="chapter-3-data-formats">Chapter 3: Data Formats</h1>
 
 <table>
-  <tr>
-    <th>JavaScript Object Notation (JSON)</th>
-    <th>Extensible Markup Language (XML)</th>
-  </tr>
-  <tr align="left">
-    <th>
-    <pre lang="json">
-{
-  "crust": "original",
-  "toppings": ["cheese", "pepperoni", "garlic"],
-  "status": "cooking",
-  "customer": {
-    "name": "Brian",
-    "phone": "573-111-1111"
-  }
-}
-    </pre>
-    </th>
-    <th>
-    <xmp>
-<order>
-  <crust>original</crust>
-  <toppings>
-    <topping>cheese</topping>
-    <topping>pepperoni</topping>
-    <topping>garlic</topping>
-  </toppings>
-  <status>cooking</status>
-</order>
-    </xmp>
-    </th>
-  </tr>
+<thead>
+<tr>
+<th>JavaScript Object Notation (JSON)</th>
+<th>Extensible Markup Language (XML)</th>
+</tr>
+</thead>
+
+<tbody>
+</tbody>
 </table>
 
-<ul>
-<li>There are two types of data formats for HTTP.</li>
-<li>The format of content-type header should be the same with the accept header in order to work properly</li>
-</ul>
+<pre><code>{
+  &quot;crust&quot;: &quot;original&quot;,
+  &quot;toppings&quot;: [&quot;cheese&quot;, &quot;pepperoni&quot;, &quot;garlic&quot;],
+  &quot;status&quot;: &quot;cooking&quot;,
+  &quot;customer&quot;: {
+    &quot;name&quot;: &quot;Brian&quot;,
+    &quot;phone&quot;: &quot;573-111-1111&quot;
+  }
+}
+    ``` | &lt;xmp&gt;
+&lt;order&gt;
+  &lt;crust&gt;original&lt;/crust&gt;
+  &lt;toppings&gt;
+    &lt;topping&gt;cheese&lt;/topping&gt;
+    &lt;topping&gt;pepperoni&lt;/topping&gt;
+    &lt;topping&gt;garlic&lt;/topping&gt;
+  &lt;/toppings&gt;
+  &lt;status&gt;cooking&lt;/status&gt;
+&lt;/order&gt;
+    &lt;/xmp&gt;
 
-<div class="isa_info">
-  Q: How to display the raw html code in Hugo?</div>
+- There are two types of data formats for HTTP.
+- The format of content-type header should be the same with the accept header in order to work properly
 
-<blockquote>
-<p>A: Wrap the raw html code in <code>&lt;xmp&gt;</code> tags.</p>
-</blockquote>
+&lt;div class=&quot;isa_warning&quot;&gt;
+  Q: How to display the raw html code in Hugo?&lt;/div&gt;
 
-<pre><code class="language-json">Keywords = {
+&lt;div class=&quot;isa_success&quot;&gt;
+  A: Wrap the raw html code in xmp tags.&lt;/div&gt;
+
+```json
+Keywords = {
   &quot;JSON&quot;: &quot;JavaScript Object Notation&quot;,
   &quot;Object&quot;: &quot;a thing or noun (person, pizza order...)&quot;,
   &quot;Key&quot;: &quot;an attribute about an object (color, toppings...)&quot;,
@@ -259,6 +253,139 @@
 </ul>
 
 <hr />
+
+<h1 id="chapter-4-authentication-part-1">Chapter 4: Authentication, Part 1</h1>
+
+<pre><code class="language-json">Keywords = {
+  &quot;Authentication&quot; : &quot;Client validates its identity to the server&quot;,
+  &quot;Credentials&quot; : &quot;Secret pieces of info used to prove the client's identity (username, password...)&quot;,
+}
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="left">Basic Auth</th>
+<th align="left">API Key Auth</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">two credentials (id and password) encode to form a single value</td>
+<td align="left">API Key is a long string e.g. &ldquo;AIzaSyBDNVz24hPpYVRIYoZ3xsoU5veMgJo13Yk&rdquo;</td>
+</tr>
+
+<tr>
+<td align="left">Pass the single value under HTTP Authorization header</td>
+<td align="left">Pass the API key under HTTP Authorization header OR URL</td>
+</tr>
+
+<tr>
+<td align="left">An established standard with strict rules</td>
+<td align="left">No established standard</td>
+</tr>
+
+<tr>
+<td align="left">Only SINGLE permission is available</td>
+<td align="left">MULTIPLE permissions with varying authority are available</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h1 id="chapter-5-authentication-part-2">Chapter 5: Authentication, Part 2</h1>
+
+<pre><code class="language-json">Keywords = {
+  &quot;Open Authorization&quot; : &quot;Aka OAuth, client can get a key from the server by simple steps&quot;,
+  &quot;The User&quot; : &quot;A person who wants to connect two websites they use&quot;,
+  &quot;The Client&quot; : [&quot;The website that will be granted access to the user's data&quot;, &quot;e.g. Codepen.io&quot;],
+  &quot;The Server&quot; : [&quot;The website that has the user's data&quot;, &quot;e.g. GitHub.com&quot;],
+  &quot;Access Token&quot; : &quot;A secret that the client obtains upon successfully completing the OAuth process which enables the client to fetch data from server&quot;,
+  &quot;Scope&quot; : &quot;To what extent the client can access the user's data&quot;
+}
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="center">Step</th>
+<th align="left">OAuth 1</th>
+<th align="left">OAuth 2</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="left">User Tells Client to Connect to Server</td>
+<td align="left">User Tells Client to Connect to Server</td>
+</tr>
+
+<tr>
+<td align="center">**</td>
+<td align="left"><em>Client to ask the server for a request token</em></td>
+<td align="left">(No such step)</td>
+</tr>
+
+<tr>
+<td align="center">**</td>
+<td align="left"><em>User digitally signs the request token</em></td>
+<td align="left">(No such step)</td>
+</tr>
+
+<tr>
+<td align="center">2</td>
+<td align="left">Client Directs User to Server</td>
+<td align="left">Client Directs User to Server</td>
+</tr>
+
+<tr>
+<td align="center"></td>
+<td align="left">Server sends back Client by callback URL once User authenticates</td>
+<td align="left">Server sends back Client by callback URL once User authenticates</td>
+</tr>
+
+<tr>
+<td align="center">3</td>
+<td align="left">User Logs-in with username and password to Server and Grants Client Access</td>
+<td align="left">User Logs-in with username and password to Server and Grants Client Access</td>
+</tr>
+
+<tr>
+<td align="center">4</td>
+<td align="left">Server Sends User Back to Client by Callback URL, Along with Authorization Code</td>
+<td align="left">Server Sends User Back to Client by Callback URL, Along with Authorization Code</td>
+</tr>
+
+<tr>
+<td align="center">5</td>
+<td align="left">Client Exchanges Authorization Code together with Client Secret Key for Access Token</td>
+<td align="left">Client Exchanges Authorization Code together with Client Secret Key for Access Token</td>
+</tr>
+
+<tr>
+<td align="center">6</td>
+<td align="left">Client Fetches Data from Server</td>
+<td align="left">Client Fetches Data from Server</td>
+</tr>
+
+<tr>
+<td align="center">**</td>
+<td align="left">(No such thing)</td>
+<td align="left"><em>Client Fetches Data under LIMITED OAuth Scope</em></td>
+</tr>
+
+<tr>
+<td align="center">**</td>
+<td align="left">(No such thing)</td>
+<td align="left"><em>Access tokens expire</em></td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="chapter-6-api-design">Chapter 6: API Design</h1>
 
 </main>
 

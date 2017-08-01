@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Freecodecamp on greenLand</title>
+    <link>https://newbiegreen4ever.github.io/green-land/tags/freecodecamp/</link>
+    <description>Recent content in Freecodecamp on greenLand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://newbiegreen4ever.github.io/green-land/tags/freecodecamp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FreeCodeCamp Weather App Walkthrough</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/31/fcc-weather-app-walkthrough/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/31/fcc-weather-app-walkthrough/</guid>
+      <description>Reference    Date Title Author URL     2017 Introduction to APIs and AJAX Epicodus Code School Link   N/A jQuery - AJAX Introduction w3schools.com Link    What is a Weather App? The Open Weather Map provides free weather data across the globe. Our Weather App is a webpage that can &amp;hellip;
+ interface with Open Weather Map API make AJAX requests fetch weather data from the server display weather data  What is API &amp;amp; AJAX?</description>
+    </item>
+    
+  </channel>
+</rss>

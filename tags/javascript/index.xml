@@ -6,30 +6,61 @@
     <description>Recent content in Javascript on greenLand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Aug 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://newbiegreen4ever.github.io/green-land/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Generate Headers for your log by Browser Console</title>
+      <title>Learning Closure in JavaScript</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/08/02/js-closure/</link>
+      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/08/02/js-closure/</guid>
+      <description> # Reference
+   Date Title Author URL     2016-04-29 Let&amp;rsquo;s Learn JavaScript Closures Preethi Kasireddy Link   2016-01-08 Master the JavaScript Interview: What is a Closure? Eric Elliott Link   2016-05-16 Understanding JavaScript: Closures Alexander Kondov Link    What is closures? </description>
+    </item>
+    
+    <item>
+      <title>Learning `=&gt;` in JavaScript</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/08/02/js-arrow-function/</link>
+      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/08/02/js-arrow-function/</guid>
+      <description># Reference
+   Date Title Author URL     2016-05-16 Arrow functions in JavaScript &amp;ndash; What, Why, and How &amp;ndash; Fun Fun Function #32 Mattias Petter Johansson Link   2017-05-02 JavaScript: Arrow Functions for Beginners Brandon Morelli Link   2017-06-14 ES6 Arrow Function Is Simple Joseph Uchenna Link   2016-05-16 Learn ES6 The Dope Way Part II: Arrow functions and the &amp;lsquo;this&amp;rsquo; keyword Masha Diminsky Link   2017-07-18 ES6 Arrow Functions &amp;ndash; two benefits Gevorg Makaryan Link    What is closures?</description>
+    </item>
+    
+    <item>
+      <title>Learning `reduce()` in JavaScript</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/08/01/js-reduce/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/08/01/js-reduce/</guid>
+      <description># Reference
+   Date Title Author URL     2017-03-05 Reduce (Composing Software) Eric Elliott Link   2017-02-11 How JavaScript&amp;rsquo;s Reduce method works, when to use it, and some of the cool things it can do Josh Pitzalis Link   2017-07-30 Understanding Array.prototype.reduce() and recursion using apple pie Vicky Lai Link   2017-05-23 Reduce your fears about Array.reduce() Dave Lunny Link   2016-12-18 Explanation of javascript&amp;rsquo;s reduce() with a real world use case Sam Pakvis Link   2016-07-14 Searching data structures with JavaScript - enter map reduce and then some Rastko Vukasinovic Link   2017-05-15 A practical guide to fetch(), reduce() and formatting data from an external API JS Link   2017-07-30 JavaScript: Finding Minimum and Maximum values in an Array of Objects Brandon Morelli Link    What is reduce()?</description>
+    </item>
+    
+    <item>
+      <title>Generate Log Headers with Browser Console</title>
       <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/29/generate-headers-for-your-log-by-browser-console/</link>
       <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/29/generate-headers-for-your-log-by-browser-console/</guid>
       <description>I resume my habit of logging down coding activity, and then I see the importance of generating headers.
-I. List of days This snippet is an application of what I have learnt from Chapter 2 of《Eloquent JavaScript》. This javaScript snippet gives you a list of days for 100-days-of-code log.
+# I. List of days
+This snippet is an application of what I have learnt from Chapter 2 of《Eloquent JavaScript》. This javaScript snippet gives you a list of days for 100-days-of-code log.
 code
 var container = &amp;quot;&amp;quot;; for (i=34; i&amp;lt;65; i++) { container += &amp;quot;### Day &amp;quot; + i + &amp;quot;:&amp;quot; + &amp;quot;\n&amp;quot;; } console.</description>
     </item>
     
     <item>
-      <title>Learning `map()` in javaScript</title>
+      <title>Learning `map()` in JavaScript</title>
       <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/19/js-map/</link>
       <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/19/js-map/</guid>
-      <description>Reference    Date Title Author URL     2017-05-31 Master Map &amp;amp; Filter, Javascript’s Most Powerful Array Functions Arnav Aggarwal Link   2014-02-24 how do you pass an array as a parameter in a function? Dave McFarland Link    Summary This article adopts a specific-to-abstract 4-stage approach to explain array functions. A quasi-map function is developed from multiplying each items in arr by 3.</description>
+      <description>Reference    Date Title Author URL     2017-05-31 Master Map &amp;amp; Filter, Javascript&amp;rsquo;s Most Powerful Array Functions Arnav Aggarwal Link   2014-02-24 how do you pass an array as a parameter in a function? Dave McFarland Link    Summary This article adopts a specific-to-abstract 4-stage approach to explain array functions. A quasi-map function is developed from multiplying each items in arr by 3.</description>
     </item>
     
     <item>

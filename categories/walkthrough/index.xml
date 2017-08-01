@@ -6,10 +6,20 @@
     <description>Recent content in Walkthrough on greenLand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://newbiegreen4ever.github.io/green-land/categories/walkthrough/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FreeCodeCamp Weather App Walkthrough</title>
+      <link>https://newbiegreen4ever.github.io/green-land/post/2017/07/31/fcc-weather-app-walkthrough/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/31/fcc-weather-app-walkthrough/</guid>
+      <description>Reference    Date Title Author URL     2017 Introduction to APIs and AJAX Epicodus Code School Link   N/A jQuery - AJAX Introduction w3schools.com Link    What is a Weather App? The Open Weather Map provides free weather data across the globe. Our Weather App is a webpage that can &amp;hellip;
+ interface with Open Weather Map API make AJAX requests fetch weather data from the server display weather data  What is API &amp;amp; AJAX?</description>
+    </item>
     
     <item>
       <title>Start Blogging with Hugo</title>
@@ -18,7 +28,7 @@
       
       <guid>https://newbiegreen4ever.github.io/green-land/post/2017/07/14/start-blogging-with-hugo/</guid>
       <description>Reference    Date Title Author URL     N/A Jekyll on Windows Jekyll official site Link   N/A Quick Start Hugo official site Link   N/A Configure Hugo Hugo official site Link   2017-07-21 How to get your website online easily with Github Julio F. Link    Why blogging? There are several good reasons to blog.
-   # Reasons behind blogging Explanation     1.</description>
+| Reasons behind blogging | Explanation :: | :&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; | :&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash; 1.</description>
     </item>
     
   </channel>
